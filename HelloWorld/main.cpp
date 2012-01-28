@@ -46,10 +46,13 @@ int main (int argc, const char * argv[])
     std::cout << "This is person object\n";
     Person p1;
     Person p2("Chong","Male",22);
+    Person p3("Hong","Male",27);
     std::cout << "This is Person 1 info:\n";
     p1.Show();
     std::cout << "This is Person 2 info:\n";
     p2.Show();
+    std::cout << "This is Person 3 info:\n";
+    p3.Show();
     return 0;
 }
 
